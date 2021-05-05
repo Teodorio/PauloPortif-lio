@@ -3,8 +3,11 @@ let currentImageIndex = 0
 let images = document.querySelectorAll("#slider img")
 let max = images.length;
 
+
+window.onload = function(){ 
+    alert("Olá Obrigado pela visita, este site é apenas um esboço, ainda estou aprendendo...") 
+}
 function nextImage() {
-    
     
     images[currentImageIndex].classList.remove("selected")
     currentImageIndex++
